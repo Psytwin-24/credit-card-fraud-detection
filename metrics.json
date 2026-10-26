@@ -1,0 +1,47 @@
+{
+ "results": {
+  "fraud_rate": 0.00173,
+  "lr_pr_auc": 0.6997,
+  "gb_pr_auc": 0.7286,
+  "iso_pr_auc": 0.158,
+  "gb_roc_auc": 0.97866,
+  "recall_at_threshold_0_20": 1.0,
+  "precision_at_threshold_0_20": 0.1565,
+  "net_saving_per_month_sim": 10832.0
+ },
+ "table": {
+  "title": "Operating point (threshold 0.20)",
+  "headers": [
+   "measure",
+   "value"
+  ],
+  "rows": [
+   [
+    "fraud caught",
+    110
+   ],
+   [
+    "fraud missed",
+    13
+   ],
+   [
+    "false alarms",
+    592
+   ],
+   [
+    "alert rate",
+    0.00986
+   ],
+   [
+    "net saving in sim window",
+    10832.0
+   ]
+  ]
+ },
+ "figures": [
+  [
+   "fraud.png",
+   "PR curves and the detection trade-off at one threshold"
+  ]
+ ]
+}
